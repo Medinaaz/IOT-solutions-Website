@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 import Button from "@material-ui/core/Button";
 import "./style_components.css"
 
-class Profile extends React.Component {
+class Features extends React.Component {
     constructor() {
         // Checkbox Initial State
         super();
@@ -884,4 +884,4 @@ check_errors = (callback) => {
         );
     }
 }
-export default Profile;
+export default Features;
