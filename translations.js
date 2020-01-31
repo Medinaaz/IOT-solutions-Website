@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 function submitButtonStyle(_this) {
     _this.style.backgroundColor = "red";
 }
-class Profile extends React.Component {
+class Translations extends React.Component {
     constructor(){
         super()
         this.state = {
@@ -218,4 +218,4 @@ class Profile extends React.Component {
         );
     }
 }
-export default Profile;
+export default Translations;
